@@ -43,10 +43,29 @@ countSheep(5);
 LaLiga
 Copa del Rey
 Champions
+
 Complete the function to return his total number of goals in all three leagues.
 
 */
 
 function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
   return(laLigaGoals + copaDelReyGoals + championsLeagueGoals)
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*Is n even?*/
+
+// function testEven(n) {
+//     if(n % 2 === 0) {
+//       return('true')
+//     }else{
+//       return('false')
+//     }
+// }
+
+//The above code is a loooong way to say the exact same thing below. 
+
+function testEven(n) {
+    return n%2===0;
 }
