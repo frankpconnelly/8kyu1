@@ -65,6 +65,8 @@ function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
 // }
 
 //The above code is a loooong way to say the exact same thing below. 
+//I still need an explanation as to why the above code is not necessary. 
+//It must be that the below function returns a boolean instinctively, and therefore does not necessitate a conditional.
 
 function testEven(n) {
     return n%2===0;
