@@ -12,6 +12,8 @@ function lovefunc(flower1,flower2){
     }else return false;
 }
 
+/*-----------------------------------------------------------------------------------------------*/
+
 /*Multiply a given number by eight if it is an even number and by nine otherwise.*/
 
 function simpleMultiplication(number) {
@@ -22,6 +24,7 @@ function simpleMultiplication(number) {
   }
 }
 
+/*-----------------------------------------------------------------------------------------------*/
 
 /*Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid, i.e. no negative integers.*/
 
@@ -32,3 +35,18 @@ var countSheep = function (num){
 }
 
 countSheep(5);
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/*Messi is a soccer player with goals in three leagues:
+
+LaLiga
+Copa del Rey
+Champions
+Complete the function to return his total number of goals in all three leagues.
+
+*/
+
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  return(laLigaGoals + copaDelReyGoals + championsLeagueGoals)
+}
